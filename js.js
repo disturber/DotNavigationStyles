@@ -1,31 +1,3 @@
-// jQuery(document).ready( function($) ){
-
-// }
-
-
-// переходы по клику на кнопки
-
-    // $(document).on('click', '.sidebar-link', function () {
-        
-    //     scrollToAnchor($(this));
-    //     return false;
-    // });
-
-    // function scrollToAnchor(el) {
-        
-    //     var body = $('body,html');
-
-    //     var elementClick = el.attr('data-href');
-
-    //     var destination = $('[data-id="' + elementClick + '"]').offset().top;
-
-
-    //     body.stop().animate({
-    //         scrollTop: destination
-    //     }, 400);
-    // }
-
-
 
     $(document).ready(function () {
         $('.sidebar-link').click(
